@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "denver",
+    "password": "strongloop",
+    "name": "mysqlDs",
+    "connector": "mysql",
+    "user": "strongloop"
+  },
+  "mongoDs": {
+    "host": "ds033153.mongolab.com",
+    "port": 33153,
+    "url": "",
+    "database": "denver",
+    "password": "strongloop",
+    "name": "mongoDs",
+    "user": "strongloop",
+    "connector": "mongodb"
+  }
+}
